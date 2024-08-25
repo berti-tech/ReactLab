@@ -1,21 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement("div", { id: "parent" }, [
-    React.createElement("div", { id: "child" }, [
-      React.createElement("h1", {}, "I'm an h1 tag"),
-      React.createElement("h2", {}, "I'm an h2 tag"),
-      React.createElement("h1", {}, "This is Bharat Rajora 🚀"),
-      React.createElement("h2", {}, "Learning React"),
-    ]),
-    React.createElement("div", { id: "child2" }, [
-      React.createElement("h1", {}, "I'm an h1 tag"),
-      React.createElement("h2", {}, "I'm an h2 tag"),
-    ]),
-]);
-  
-  
-console.log(parent); // object
-  
+const heading = React.createElement("h1", {id: "heading"}, "Learning React");
+
+// We need to create the root in react to render the react Element
+// This root will become the root for our react App. 
+// Whatever will happen inside react, will happen inside root
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+
+// Render 
+root.render(heading);
