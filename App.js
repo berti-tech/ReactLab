@@ -9,7 +9,11 @@ const heading = React.createElement(
 console.log(heading)
 
 // JSX - HTML/XML like syntax
-const jsxHeading = <h1 id="heading">Namaste React using JSX</h1>
+const jsxHeading = (
+    <h1 id="heading" className="head">
+        Namaste React using JSX
+    </h1>
+)
 
 console.log(jsxHeading)
 
