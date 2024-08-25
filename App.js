@@ -6,12 +6,13 @@ const heading = React.createElement(
     {id: "heading"}, 
     "Learning React 🚀"
 );
+console.log(heading)
 
 // JSX - HTML/XML like syntax
 const jsxHeading = <h1 id="heading">Namaste React using JSX</h1>
 
 console.log(jsxHeading)
-console.log(heading)
+
 
 // We need to create the root in react to render the react Element
 // This root will become the root for our react App. 
@@ -20,3 +21,4 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // Render 
 root.render(heading);
+root.render(jsxHeading);
