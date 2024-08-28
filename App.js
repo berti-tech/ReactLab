@@ -26,918 +26,1286 @@ import AppLogo from "./assets/AppLogo.png";
  */
 
 const resList = [
-          {
-            "info": {
-              "id": "59593",
-              "name": "Al Daaz",
-              "cloudinaryImageId": "9d9ccb333db8f94351e3842664d09309",
-              "locality": "HSR Layout",
-              "areaName": "HSR Layout",
-              "costForTwo": "₹400 for two",
-              "cuisines": [
-                "Arabian",
-                "Mughlai",
-                "Chinese",
-                "Desserts",
-                "American",
-                "Indian",
-                "Pizzas"
-              ],
-              "avgRating": 4.5,
-              "parentId": "21640",
-              "avgRatingString": "4.5",
-              "totalRatingsString": "10K+",
-              "sla": {
-                "deliveryTime": 30,
-                "lastMileTravel": 1.9,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "1.9 km",
-                "iconType": "ICON_TYPE_EMPTY"
-              },
-              "availability": {
-                "nextCloseTime": "2024-08-28 23:59:00",
-                "opened": true
-              },
-              "badges": {
-                
-              },
-              "isOpen": true,
-              "aggregatedDiscountInfoV2": {
-                
-              },
-              "type": "F",
-              "badgesV2": {
-                "entityBadges": {
-                  "imageBased": {
-                    
-                  },
-                  "textBased": {
-                    
-                  },
-                  "textExtendedBadges": {
-                    
-                  }
-                }
-              },
-              "orderabilityCommunication": {
-                "title": {
-                  
-                },
-                "subTitle": {
-                  
-                },
-                "message": {
-                  
-                },
-                "customIcon": {
-                  
-                }
-              },
-              "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                  "lottie": {
-                    
-                  },
-                  "video": {
-                    
-                  }
-                }
-              },
-              "reviewsSummary": {
-                
-              },
-              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-              "restaurantOfferPresentationInfo": {
-                
-              },
-              "externalRatings": {
-                "aggregatedRating": {
-                  "rating": "4.1",
-                  "ratingCount": "10K+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-              },
-              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-            },
-            "analytics": {
-              "context": "seo-data-3359b508-a149-47d4-a5c9-f04ccd795090"
-            },
-            "cta": {
-              "link": "https://www.swiggy.com/restaurants/al-daaz-hsr-layout-bangalore-59593",
-              "text": "RESTAURANT_MENU",
-              "type": "WEBLINK"
-            },
-            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-          },
-          {
-            "info": {
-              "id": "323187",
-              "name": "Meghana Foods",
-              "cloudinaryImageId": "nw2xeql0jokm2rqnkzfs",
-              "locality": "Hosur Road",
-              "areaName": "Hosur Road",
-              "costForTwo": "₹500 for two",
-              "cuisines": [
-                "Biryani",
-                "Andhra",
-                "South Indian",
-                "Chinese",
-                "Seafood"
-              ],
-              "avgRating": 4.6,
-              "parentId": "635",
-              "avgRatingString": "4.6",
-              "totalRatingsString": "10K+",
-              "sla": {
-                "deliveryTime": 42,
-                "lastMileTravel": 4.6,
-                "serviceability": "SERVICEABLE",
-                "slaString": "40-45 mins",
-                "lastMileTravelString": "4.6 km",
-                "iconType": "ICON_TYPE_EMPTY"
-              },
-              "availability": {
-                "nextCloseTime": "2024-08-29 01:30:00",
-                "opened": true
-              },
-              "badges": {
-                "imageBadges": [
-                  {
-                    "imageId": "Rxawards/_CATEGORY-Biryani.png",
-                    "description": "Delivery!"
-                  }
-                ]
-              },
-              "isOpen": true,
-              "aggregatedDiscountInfoV2": {
-                
-              },
-              "type": "F",
-              "badgesV2": {
-                "entityBadges": {
-                  "imageBased": {
-                    "badgeObject": [
-                      {
-                        "attributes": {
-                          "description": "Delivery!",
-                          "imageId": "Rxawards/_CATEGORY-Biryani.png"
-                        }
-                      }
-                    ]
-                  },
-                  "textBased": {
-                    
-                  },
-                  "textExtendedBadges": {
-                    
-                  }
-                }
-              },
-              "orderabilityCommunication": {
-                "title": {
-                  
-                },
-                "subTitle": {
-                  
-                },
-                "message": {
-                  
-                },
-                "customIcon": {
-                  
-                }
-              },
-              "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                  "lottie": {
-                    
-                  },
-                  "video": {
-                    
-                  }
-                }
-              },
-              "reviewsSummary": {
-                
-              },
-              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-              "restaurantOfferPresentationInfo": {
-                
-              },
-              "externalRatings": {
-                "aggregatedRating": {
-                  "rating": "4.4",
-                  "ratingCount": "5K+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-              },
-              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-            },
-            "analytics": {
-              "context": "seo-data-3359b508-a149-47d4-a5c9-f04ccd795090"
-            },
-            "cta": {
-              "link": "https://www.swiggy.com/restaurants/meghana-foods-hosur-road-bangalore-323187",
-              "text": "RESTAURANT_MENU",
-              "type": "WEBLINK"
-            },
-            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-          },
-          {
-            "info": {
-              "id": "769775",
-              "name": "Nahdi Mandi Restaurant",
-              "cloudinaryImageId": "8e82f6e42f5e5bde0649f1f8f48209d8",
-              "locality": "BTM Layout",
-              "areaName": "BTM Layout",
-              "costForTwo": "₹450 for two",
-              "cuisines": [
-                "Biryani",
-                "Arabian",
-                "North Indian"
-              ],
-              "avgRating": 4.5,
-              "parentId": "459711",
-              "avgRatingString": "4.5",
-              "totalRatingsString": "1K+",
-              "sla": {
-                "deliveryTime": 37,
-                "lastMileTravel": 3,
-                "serviceability": "SERVICEABLE",
-                "slaString": "35-40 mins",
-                "lastMileTravelString": "3.0 km",
-                "iconType": "ICON_TYPE_EMPTY"
-              },
-              "availability": {
-                "nextCloseTime": "2024-08-28 23:59:00",
-                "opened": true
-              },
-              "badges": {
-                
-              },
-              "isOpen": true,
-              "type": "F",
-              "badgesV2": {
-                "entityBadges": {
-                  "imageBased": {
-                    
-                  },
-                  "textBased": {
-                    
-                  },
-                  "textExtendedBadges": {
-                    
-                  }
-                }
-              },
-              "aggregatedDiscountInfoV3": {
-                "header": "20% OFF",
-                "subHeader": "UPTO ₹50"
-              },
-              "orderabilityCommunication": {
-                "title": {
-                  
-                },
-                "subTitle": {
-                  
-                },
-                "message": {
-                  
-                },
-                "customIcon": {
-                  
-                }
-              },
-              "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                  "lottie": {
-                    
-                  },
-                  "video": {
-                    
-                  }
-                }
-              },
-              "reviewsSummary": {
-                
-              },
-              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-              "restaurantOfferPresentationInfo": {
-                
-              },
-              "externalRatings": {
-                "aggregatedRating": {
-                  "rating": "4.4",
-                  "ratingCount": "1K+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-              },
-              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-            },
-            "analytics": {
-              "context": "seo-data-3359b508-a149-47d4-a5c9-f04ccd795090"
-            },
-            "cta": {
-              "link": "https://www.swiggy.com/restaurants/nahdi-mandi-restaurant-btm-layout-bangalore-769775",
-              "text": "RESTAURANT_MENU",
-              "type": "WEBLINK"
-            },
-            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-          },
-          {
-            "info": {
-              "id": "426",
-              "name": "Hotel Empire",
-              "cloudinaryImageId": "gswvotfmtwj47y7o7nqh",
-              "locality": "HSR Layout",
-              "areaName": "HSR Layout",
-              "costForTwo": "₹450 for two",
-              "cuisines": [
-                "Kebabs",
-                "Biryani"
-              ],
-              "avgRating": 4.3,
-              "parentId": "475",
-              "avgRatingString": "4.3",
-              "totalRatingsString": "10K+",
-              "sla": {
-                "deliveryTime": 30,
-                "lastMileTravel": 1.4,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "1.4 km",
-                "iconType": "ICON_TYPE_EMPTY"
-              },
-              "availability": {
-                "nextCloseTime": "2024-08-29 02:45:00",
-                "opened": true
-              },
-              "badges": {
-                "imageBadges": [
-                  {
-                    "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
-                    "description": "Delivery!"
-                  }
-                ]
-              },
-              "isOpen": true,
-              "type": "F",
-              "badgesV2": {
-                "entityBadges": {
-                  "imageBased": {
-                    "badgeObject": [
-                      {
-                        "attributes": {
-                          "description": "Delivery!",
-                          "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
-                        }
-                      }
-                    ]
-                  },
-                  "textBased": {
-                    
-                  },
-                  "textExtendedBadges": {
-                    
-                  }
-                }
-              },
-              "aggregatedDiscountInfoV3": {
-                "header": "10% OFF",
-                "subHeader": "UPTO ₹40"
-              },
-              "orderabilityCommunication": {
-                "title": {
-                  
-                },
-                "subTitle": {
-                  
-                },
-                "message": {
-                  
-                },
-                "customIcon": {
-                  
-                }
-              },
-              "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                  "lottie": {
-                    
-                  },
-                  "video": {
-                    
-                  }
-                }
-              },
-              "reviewsSummary": {
-                
-              },
-              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-              "restaurantOfferPresentationInfo": {
-                
-              },
-              "externalRatings": {
-                "aggregatedRating": {
-                  "rating": "4.1",
-                  "ratingCount": "10K+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-              },
-              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-            },
-            "analytics": {
-              "context": "seo-data-3359b508-a149-47d4-a5c9-f04ccd795090"
-            },
-            "cta": {
-              "link": "https://www.swiggy.com/restaurants/hotel-empire-hsr-layout-bangalore-426",
-              "text": "RESTAURANT_MENU",
-              "type": "WEBLINK"
-            },
-            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-          },
-          {
-            "info": {
-              "id": "428",
-              "name": "Biryani Pot ",
-              "cloudinaryImageId": "mdipoyzfzsa7n7igskht",
-              "locality": "BTM Layout",
-              "areaName": "BTM Layout",
-              "costForTwo": "₹500 for two",
-              "cuisines": [
-                "Biryani"
-              ],
-              "avgRating": 4.1,
-              "parentId": "21798",
-              "avgRatingString": "4.1",
-              "totalRatingsString": "10K+",
-              "sla": {
-                "deliveryTime": 39,
-                "lastMileTravel": 4.2,
-                "serviceability": "SERVICEABLE",
-                "slaString": "35-40 mins",
-                "lastMileTravelString": "4.2 km",
-                "iconType": "ICON_TYPE_EMPTY"
-              },
-              "availability": {
-                "nextCloseTime": "2024-08-29 03:00:00",
-                "opened": true
-              },
-              "badges": {
-                "textExtendedBadges": [
-                  {
-                    "iconId": "guiltfree/GF_Logo_android_3x",
-                    "shortDescription": "options available",
-                    "fontColor": "#7E808C"
-                  }
-                ]
-              },
-              "isOpen": true,
-              "type": "F",
-              "badgesV2": {
-                "entityBadges": {
-                  "imageBased": {
-                    
-                  },
-                  "textBased": {
-                    
-                  },
-                  "textExtendedBadges": {
-                    "badgeObject": [
-                      {
-                        "attributes": {
-                          "description": "",
-                          "fontColor": "#7E808C",
-                          "iconId": "guiltfree/GF_Logo_android_3x",
-                          "shortDescription": "options available"
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              "aggregatedDiscountInfoV3": {
-                "header": "₹100 OFF",
-                "subHeader": "ABOVE ₹299",
-                "discountTag": "FLAT DEAL"
-              },
-              "orderabilityCommunication": {
-                "title": {
-                  
-                },
-                "subTitle": {
-                  
-                },
-                "message": {
-                  
-                },
-                "customIcon": {
-                  
-                }
-              },
-              "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                  "lottie": {
-                    
-                  },
-                  "video": {
-                    
-                  }
-                }
-              },
-              "reviewsSummary": {
-                
-              },
-              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-              "restaurantOfferPresentationInfo": {
-                
-              },
-              "externalRatings": {
-                "aggregatedRating": {
-                  "rating": "3.5",
-                  "ratingCount": "500+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-              },
-              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-            },
-            "analytics": {
-              "context": "seo-data-3359b508-a149-47d4-a5c9-f04ccd795090"
-            },
-            "cta": {
-              "link": "https://www.swiggy.com/restaurants/biryani-pot-btm-layout-bangalore-428",
-              "text": "RESTAURANT_MENU",
-              "type": "WEBLINK"
-            },
-            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-          },
-          {
-            "info": {
-              "id": "194610",
-              "name": "Mani's Dum Biryani",
-              "cloudinaryImageId": "j7cijvueivi8qhvnohvw",
-              "locality": "HSR Layout\t",
-              "areaName": "HSR Layout",
-              "costForTwo": "₹300 for two",
-              "cuisines": [
-                "Andhra",
-                "Biryani",
-                "North Indian"
-              ],
-              "avgRating": 4.5,
-              "parentId": "623",
-              "avgRatingString": "4.5",
-              "totalRatingsString": "10K+",
-              "sla": {
-                "deliveryTime": 26,
-                "lastMileTravel": 0.9,
-                "serviceability": "SERVICEABLE",
-                "slaString": "25-30 mins",
-                "lastMileTravelString": "0.9 km",
-                "iconType": "ICON_TYPE_EMPTY"
-              },
-              "availability": {
-                "nextCloseTime": "2024-08-28 23:45:00",
-                "opened": true
-              },
-              "badges": {
-                "textExtendedBadges": [
-                  {
-                    "iconId": "guiltfree/GF_Logo_android_3x",
-                    "shortDescription": "options available",
-                    "fontColor": "#7E808C"
-                  }
-                ]
-              },
-              "isOpen": true,
-              "aggregatedDiscountInfoV2": {
-                
-              },
-              "type": "F",
-              "badgesV2": {
-                "entityBadges": {
-                  "imageBased": {
-                    
-                  },
-                  "textBased": {
-                    
-                  },
-                  "textExtendedBadges": {
-                    "badgeObject": [
-                      {
-                        "attributes": {
-                          "description": "",
-                          "fontColor": "#7E808C",
-                          "iconId": "guiltfree/GF_Logo_android_3x",
-                          "shortDescription": "options available"
-                        }
-                      }
-                    ]
-                  }
-                }
-              },
-              "orderabilityCommunication": {
-                "title": {
-                  
-                },
-                "subTitle": {
-                  
-                },
-                "message": {
-                  
-                },
-                "customIcon": {
-                  
-                }
-              },
-              "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                  "lottie": {
-                    
-                  },
-                  "video": {
-                    
-                  }
-                }
-              },
-              "reviewsSummary": {
-                
-              },
-              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-              "restaurantOfferPresentationInfo": {
-                
-              },
-              "externalRatings": {
-                "aggregatedRating": {
-                  "rating": "4.3",
-                  "ratingCount": "1K+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-              },
-              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-            },
-            "analytics": {
-              "context": "seo-data-3359b508-a149-47d4-a5c9-f04ccd795090"
-            },
-            "cta": {
-              "link": "https://www.swiggy.com/restaurants/manis-dum-biryani-hsr-layout-bangalore-194610",
-              "text": "RESTAURANT_MENU",
-              "type": "WEBLINK"
-            },
-            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-          },
-          {
-            "info": {
-              "id": "57283",
-              "name": "Burger King",
-              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/55d0daa1-ad2e-4893-be06-4709c5c68d49_57283.JPG",
-              "locality": "HSR Layout",
-              "areaName": "HSR Layout",
-              "costForTwo": "₹350 for two",
-              "cuisines": [
-                "Burgers",
-                "American"
-              ],
-              "avgRating": 4.2,
-              "parentId": "166",
-              "avgRatingString": "4.2",
-              "totalRatingsString": "10K+",
-              "sla": {
-                "deliveryTime": 34,
-                "lastMileTravel": 0.7,
-                "serviceability": "SERVICEABLE",
-                "slaString": "30-35 mins",
-                "lastMileTravelString": "0.7 km",
-                "iconType": "ICON_TYPE_EMPTY"
-              },
-              "availability": {
-                "nextCloseTime": "2024-08-29 06:00:00",
-                "opened": true
-              },
-              "badges": {
-                "imageBadges": [
-                  {
-                    "imageId": "Rxawards/_CATEGORY-Burger.png",
-                    "description": "Delivery!"
-                  }
-                ]
-              },
-              "isOpen": true,
-              "type": "F",
-              "badgesV2": {
-                "entityBadges": {
-                  "imageBased": {
-                    "badgeObject": [
-                      {
-                        "attributes": {
-                          "description": "Delivery!",
-                          "imageId": "Rxawards/_CATEGORY-Burger.png"
-                        }
-                      }
-                    ]
-                  },
-                  "textBased": {
-                    
-                  },
-                  "textExtendedBadges": {
-                    
-                  }
-                }
-              },
-              "aggregatedDiscountInfoV3": {
-                "header": "ITEMS",
-                "subHeader": "AT ₹99"
-              },
-              "orderabilityCommunication": {
-                "title": {
-                  
-                },
-                "subTitle": {
-                  
-                },
-                "message": {
-                  
-                },
-                "customIcon": {
-                  
-                }
-              },
-              "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                  "lottie": {
-                    
-                  },
-                  "video": {
-                    
-                  }
-                }
-              },
-              "reviewsSummary": {
-                
-              },
-              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-              "restaurantOfferPresentationInfo": {
-                
-              },
-              "externalRatings": {
-                "aggregatedRating": {
-                  "rating": "4.0",
-                  "ratingCount": "1K+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-              },
-              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-            },
-            "analytics": {
-              "context": "seo-data-3359b508-a149-47d4-a5c9-f04ccd795090"
-            },
-            "cta": {
-              "link": "https://www.swiggy.com/restaurants/burger-king-hsr-layout-bangalore-57283",
-              "text": "RESTAURANT_MENU",
-              "type": "WEBLINK"
-            },
-            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-          },
-          {
-            "info": {
-              "id": "201224",
-              "name": "Asha Tiffins",
-              "cloudinaryImageId": "n15vckntsiboiod3gpco",
-              "locality": "HSR Layout",
-              "areaName": "HSR Layout",
-              "costForTwo": "₹200 for two",
-              "cuisines": [
-                "South Indian",
-                "Chinese",
-                "Desserts",
-                "Beverages",
-                "North Indian"
-              ],
-              "avgRating": 4.5,
-              "parentId": "236243",
-              "avgRatingString": "4.5",
-              "totalRatingsString": "10K+",
-              "sla": {
-                "deliveryTime": 22,
-                "lastMileTravel": 1.4,
-                "serviceability": "SERVICEABLE",
-                "slaString": "20-25 mins",
-                "lastMileTravelString": "1.4 km",
-                "iconType": "ICON_TYPE_EMPTY"
-              },
-              "availability": {
-                "nextCloseTime": "2024-08-28 22:30:00",
-                "opened": true
-              },
-              "badges": {
-                "imageBadges": [
-                  {
-                    "imageId": "v1695133679/badges/Pure_Veg111.png",
-                    "description": "pureveg"
-                  }
-                ]
-              },
-              "isOpen": true,
-              "type": "F",
-              "badgesV2": {
-                "entityBadges": {
-                  "imageBased": {
-                    "badgeObject": [
-                      {
-                        "attributes": {
-                          "description": "pureveg",
-                          "imageId": "v1695133679/badges/Pure_Veg111.png"
-                        }
-                      }
-                    ]
-                  },
-                  "textBased": {
-                    
-                  },
-                  "textExtendedBadges": {
-                    
-                  }
-                }
-              },
-              "aggregatedDiscountInfoV3": {
-                "header": "50% OFF",
-                "subHeader": "UPTO ₹100"
-              },
-              "orderabilityCommunication": {
-                "title": {
-                  
-                },
-                "subTitle": {
-                  
-                },
-                "message": {
-                  
-                },
-                "customIcon": {
-                  
-                }
-              },
-              "differentiatedUi": {
-                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                "differentiatedUiMediaDetails": {
-                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                  "lottie": {
-                    
-                  },
-                  "video": {
-                    
-                  }
-                }
-              },
-              "reviewsSummary": {
-                
-              },
-              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-              "restaurantOfferPresentationInfo": {
-                
-              },
-              "externalRatings": {
-                "aggregatedRating": {
-                  "rating": "4.4",
-                  "ratingCount": "10K+"
-                },
-                "source": "GOOGLE",
-                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-              },
-              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-            },
-            "analytics": {
-              "context": "seo-data-3359b508-a149-47d4-a5c9-f04ccd795090"
-            },
-            "cta": {
-              "link": "https://www.swiggy.com/restaurants/asha-tiffins-hsr-layout-bangalore-201224",
-              "text": "RESTAURANT_MENU",
-              "type": "WEBLINK"
-            },
-            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    {
+      "info": {
+        "id": "10581",
+        "name": "Pizza Hut",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/4e3a765a-3f1f-416a-9f9e-1748e8d9c488_10581.jpg",
+        "locality": "14th Main",
+        "areaName": "HSR Layout",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+          "Pizzas"
+        ],
+        "avgRating": 4.2,
+        "parentId": "721",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 28,
+          "lastMileTravel": 0.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "0.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-29 03:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
           }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "ITEMS",
+          "subHeader": "AT ₹189"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "3.7",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/pizza-hut-14th-main-hsr-layout-bangalore-10581",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "73541",
+        "name": "R.B Food Point",
+        "cloudinaryImageId": "epzsfnjc9s5zbatq9rp4",
+        "locality": "BTM Layout",
+        "areaName": "BTM Layout",
+        "costForTwo": "₹350 for two",
+        "cuisines": [
+          "Snacks",
+          "Chinese",
+          "Biryani",
+          "Thai"
+        ],
+        "avgRating": 3.8,
+        "parentId": "163820",
+        "avgRatingString": "3.8",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 42,
+          "lastMileTravel": 3.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "40-45 mins",
+          "lastMileTravelString": "3.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-28 23:15:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "20% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/r-b-food-point-btm-layout-bangalore-73541",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "561133",
+        "name": "Milana Fast Food",
+        "cloudinaryImageId": "b4okvdqjbdoletaet4hu",
+        "locality": "4th Block",
+        "areaName": "Koramangala",
+        "costForTwo": "₹320 for two",
+        "cuisines": [
+          "South Indian",
+          "Chinese",
+          "Biryani"
+        ],
+        "avgRating": 4.1,
+        "parentId": "337755",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "100+",
+        "sla": {
+          "deliveryTime": 41,
+          "lastMileTravel": 4.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "40-45 mins",
+          "lastMileTravelString": "4.1 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-28 23:56:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹150 OFF",
+          "subHeader": "ABOVE ₹999",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/milana-fast-food-4th-block-koramangala-bangalore-561133",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "241027",
+        "name": "Namaste",
+        "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3",
+        "locality": "3rd Sector",
+        "areaName": "Hsr Layout",
+        "costForTwo": "₹100 for two",
+        "cuisines": [
+          "South Indian",
+          "Thalis",
+          "Biryani",
+          "Desserts",
+          "Beverages",
+          "Indian"
+        ],
+        "avgRating": 4.3,
+        "parentId": "366271",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 23,
+          "lastMileTravel": 0.6,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "0.6 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-29 01:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹125 OFF",
+          "subHeader": "ABOVE ₹199",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/namaste-3rd-sector-hsr-layout-bangalore-241027",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "527860",
+        "name": "AL Khaja Resturent",
+        "cloudinaryImageId": "t4kx6yqfmvc3ivnbnybp",
+        "locality": "Mangammanapalya Main Road",
+        "areaName": "Bommanahalli",
+        "costForTwo": "₹500 for two",
+        "cuisines": [
+          "Chinese",
+          "North Indian",
+          "Arabian",
+          "Ice Cream",
+          "Beverages"
+        ],
+        "avgRating": 4.3,
+        "parentId": "318464",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 33,
+          "lastMileTravel": 2.2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "2.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-28 23:59:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/al-khaja-resturent-mangammanapalya-main-road-bommanahalli-bangalore-527860",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "163593",
+        "name": "Kirti Kitchen",
+        "cloudinaryImageId": "zqdqizhiwzzqjhwvqu6w",
+        "locality": "1st Stage",
+        "areaName": "Btm Layout",
+        "costForTwo": "₹150 for two",
+        "cuisines": [
+          "North Indian",
+          "Chinese"
+        ],
+        "avgRating": 3.8,
+        "parentId": "118811",
+        "avgRatingString": "3.8",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 44,
+          "lastMileTravel": 3.6,
+          "serviceability": "SERVICEABLE",
+          "slaString": "40-45 mins",
+          "lastMileTravelString": "3.6 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-28 23:30:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "20% OFF",
+          "subHeader": "UPTO ₹100"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/kirti-kitchen-1st-stage-btm-layout-bangalore-163593",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "230732",
+        "name": "Mandya Gowdru Donne Biryani",
+        "cloudinaryImageId": "f86ae376eb062ae341fc99e7ebd197dd",
+        "locality": "HSR Layout",
+        "areaName": "Koramangala",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Biryani",
+          "Chettinad"
+        ],
+        "avgRating": 4.2,
+        "parentId": "14651",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 21,
+          "lastMileTravel": 1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "1.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-28 23:59:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹100 OFF",
+          "subHeader": "ABOVE ₹349",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.0",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/mandya-gowdru-donne-biryani-hsr-layout-koramangala-bangalore-230732",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "319530",
+        "name": "Malnad Donne Biriyani MDB",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/9/1ed1b13f-f71b-470f-baec-6ff06c568f11_319530.jpg",
+        "locality": "Kodichikanahalli Main Road",
+        "areaName": "Bommanahalli",
+        "costForTwo": "₹199 for two",
+        "cuisines": [
+          "Biryani",
+          "Chinese",
+          "South Indian"
+        ],
+        "avgRating": 4.2,
+        "parentId": "130946",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 33,
+          "lastMileTravel": 4.1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "30-35 mins",
+          "lastMileTravelString": "4.1 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-29 00:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "₹200 OFF",
+          "subHeader": "ABOVE ₹999",
+          "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/malnad-donne-biriyani-mdb-kodichikanahalli-main-road-bommanahalli-bangalore-319530",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "415042",
+        "name": "Royal Biryani Kitchen",
+        "cloudinaryImageId": "rze3ha5v1jced9951x0b",
+        "locality": "1st  Stage",
+        "areaName": "BTM Layout",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Biryani",
+          "Chinese",
+          "Tandoor",
+          "Snacks",
+          "Mughlai"
+        ],
+        "avgRating": 3.3,
+        "parentId": "171864",
+        "avgRatingString": "3.3",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 44,
+          "lastMileTravel": 4.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "40-45 mins",
+          "lastMileTravelString": "4.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-28 23:59:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/royal-biryani-kitchen-1st-stage-btm-layout-bangalore-415042",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "496423",
+        "name": "Dum Biryani Hub",
+        "cloudinaryImageId": "dzfnv4xnrfnchnmnffyd",
+        "locality": "BTM Layout",
+        "areaName": "BTM Layout",
+        "costForTwo": "₹450 for two",
+        "cuisines": [
+          "Biryani",
+          "North Indian",
+          "Chinese",
+          "Desserts",
+          "Beverages"
+        ],
+        "avgRating": 3.4,
+        "parentId": "297555",
+        "avgRatingString": "3.4",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 51,
+          "lastMileTravel": 4.9,
+          "serviceability": "SERVICEABLE",
+          "slaString": "50-55 mins",
+          "lastMileTravelString": "4.9 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-28 23:59:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "60% OFF",
+          "subHeader": "UPTO ₹120"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "--"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/dum-biryani-hub-btm-layout-bangalore-496423",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "407773",
+        "name": "Babai Tiffins",
+        "cloudinaryImageId": "176c7bae2f0b8d96070968ac01c79b2e",
+        "locality": "HSR Layout",
+        "areaName": "HSR Layout",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+          "South Indian",
+          "Andhra",
+          "Fast Food",
+          "Snacks"
+        ],
+        "avgRating": 4.6,
+        "parentId": "39052",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 19,
+          "lastMileTravel": 1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "15-20 mins",
+          "lastMileTravelString": "1.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-29 01:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "v1695133679/badges/Pure_Veg111.png",
+              "description": "pureveg"
+            }
+          ]
+        },
+        "isOpen": true,
+        "aggregatedDiscountInfoV2": {},
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "pureveg",
+                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.2",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/babai-tiffins-hsr-layout-bangalore-407773",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "336826",
+        "name": "Onesta",
+        "cloudinaryImageId": "jle3xgsv6md8kll1yrus",
+        "locality": "HSR Layout",
+        "areaName": "HSR Layout",
+        "costForTwo": "₹200 for two",
+        "cuisines": [
+          "Italian",
+          "Desserts",
+          "Pizzas",
+          "American",
+          "Snacks"
+        ],
+        "avgRating": 4,
+        "parentId": "11785",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 26,
+          "lastMileTravel": 1,
+          "serviceability": "SERVICEABLE",
+          "slaString": "25-30 mins",
+          "lastMileTravelString": "1.0 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-29 04:00:00",
+          "opened": true
+        },
+        "badges": {
+          "textExtendedBadges": [
+            {
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available",
+              "fontColor": "#7E808C"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "",
+                    "fontColor": "#7E808C",
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "ITEMS",
+          "subHeader": "AT ₹89",
+          "discountCalloutInfo": {
+            "message": "Free Delivery",
+            "logoCtx": {
+              "logo": "v1655895371/free_delivery_logo_hqipbo.png"
+            }
+          }
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.0",
+            "ratingCount": "5K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/onesta-hsr-layout-bangalore-336826",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "465184",
+        "name": "Tasty Restaurant",
+        "cloudinaryImageId": "oy2ysr04zxuco5f8ls88",
+        "locality": "BTM Layout",
+        "areaName": "Btm Layout",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Indian",
+          "Chinese",
+          "Biryani"
+        ],
+        "avgRating": 4.1,
+        "parentId": "202122",
+        "avgRatingString": "4.1",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 37,
+          "lastMileTravel": 4.2,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35-40 mins",
+          "lastMileTravelString": "4.2 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-29 00:45:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "10% OFF",
+          "subHeader": "UPTO ₹40"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "3.9",
+            "ratingCount": "1K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/tasty-restaurant-btm-layout-bangalore-465184",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "18973",
+        "name": "Nandhana Palace",
+        "cloudinaryImageId": "195876a3181ef63f76e45e3a7b49b585",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "₹500 for two",
+        "cuisines": [
+          "Biryani",
+          "Andhra",
+          "South Indian",
+          "North Indian"
+        ],
+        "avgRating": 4.3,
+        "parentId": "2120",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 39,
+          "lastMileTravel": 4.3,
+          "serviceability": "SERVICEABLE",
+          "slaString": "35-40 mins",
+          "lastMileTravelString": "4.3 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-29 02:00:00",
+          "opened": true
+        },
+        "badges": {
+          "imageBadges": [
+            {
+              "imageId": "Rxawards/_CATEGORY-Biryani.png",
+              "description": "Delivery!"
+            }
+          ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {
+              "badgeObject": [
+                {
+                  "attributes": {
+                    "description": "Delivery!",
+                    "imageId": "Rxawards/_CATEGORY-Biryani.png"
+                  }
+                }
+              ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "40% OFF",
+          "subHeader": "UPTO ₹80"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.2",
+            "ratingCount": "5K+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/nandhana-palace-koramangala-bangalore-18973",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+      "info": {
+        "id": "17310",
+        "name": "KFC",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/283329f9-5ad8-4c46-9177-6b23b6eb2966_17310.JPG",
+        "locality": "HSR Layout",
+        "areaName": "HSR Layout",
+        "costForTwo": "₹400 for two",
+        "cuisines": [
+          "Burgers",
+          "Fast Food",
+          "Rolls & Wraps"
+        ],
+        "avgRating": 4.3,
+        "parentId": "547",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 24,
+          "lastMileTravel": 0.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "20-25 mins",
+          "lastMileTravelString": "0.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+          "nextCloseTime": "2024-08-29 00:00:00",
+          "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+          "entityBadges": {
+            "imageBased": {},
+            "textBased": {},
+            "textExtendedBadges": {}
+          }
+        },
+        "aggregatedDiscountInfoV3": {
+          "header": "10% OFF",
+          "subHeader": "UPTO ₹40"
+        },
+        "orderabilityCommunication": {
+          "title": {},
+          "subTitle": {},
+          "message": {},
+          "customIcon": {}
+        },
+        "differentiatedUi": {
+          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          "differentiatedUiMediaDetails": {
+            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+            "lottie": {},
+            "video": {}
+          }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+          "aggregatedRating": {
+            "rating": "4.1",
+            "ratingCount": "500+"
+          },
+          "source": "GOOGLE",
+          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      },
+      "analytics": {
+        "context": "seo-data-71e578d9-9dd2-4e3d-8462-aba5dc77adfc"
+      },
+      "cta": {
+        "link": "https://www.swiggy.com/restaurants/kfc-hsr-layout-bangalore-17310",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+      },
+      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
 ]
 
 
@@ -992,14 +1360,12 @@ const Body = () => {
                 Search
             </div>
             <div className="restaurant-container">
-                <RestaurantCard resData={resList[0]}/>
-                <RestaurantCard resData={resList[1]}/>
-                <RestaurantCard resData={resList[2]}/>
-                <RestaurantCard resData={resList[3]}/>
-                <RestaurantCard resData={resList[4]}/>
-                <RestaurantCard resData={resList[5]}/>
-                <RestaurantCard resData={resList[6]}/>
-                <RestaurantCard resData={resList[7]}/>
+            {
+                resList.map(restaurant => 
+                    <RestaurantCard resData={restaurant}/>
+                )
+            }
+                
             </div>
         </div>
     )
