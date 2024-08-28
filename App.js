@@ -49,14 +49,15 @@ const styleCard = {
     backgroundColor: "#f0f0f0"
 }
 
-const RestaurantCard = () => {
+const RestaurantCard = (props) => {
+    console.log(props)
     return (
         <div className="res-card" style={styleCard}>
             <img className="res-logo"
                 alt="res-logo" 
                 src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nw2xeql0jokm2rqnkzfs"/>
-            <h3>Meghna Foods</h3>
-            <h4>Biryani, North Indian, Asian</h4>
+            <h3>{props.resName}</h3>
+            <h4>{props.cuisine}</h4>
             <h4>Rating : 4.4</h4>
             <h4>38 min.</h4>
 
@@ -64,6 +65,7 @@ const RestaurantCard = () => {
     )
 }
 
+// We will see how can we create dynamic Restaurant cards - Passing Dynamic data to the restaurant cards
 const Body = () => {
     return (
         <div className="body">
@@ -71,16 +73,8 @@ const Body = () => {
                 Search
             </div>
             <div className="restaurant-container">
-                <RestaurantCard/>
-                <RestaurantCard/>
-                <RestaurantCard/>
-                <RestaurantCard/>
-                <RestaurantCard/>
-                <RestaurantCard/>
-                <RestaurantCard/>
-                <RestaurantCard/>
-                <RestaurantCard/>
-                <RestaurantCard/>
+                <RestaurantCard resName="Meghna Foods" cuisine="Biryani, North Indian, Asian"/>
+                <RestaurantCard resName="McDonalds" cuisine="Burger, Fast Foods"/>
             </div>
         </div>
     )
