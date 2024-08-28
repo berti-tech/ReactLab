@@ -25,17 +25,7 @@ import AppLogo from "./assets/AppLogo.png";
  * 
  */
 
-
-const resObj = {
-    "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
-    "layout": {
-      "columns": 4
-    },
-    "id": "restaurant_grid_listing",
-    "gridElements": {
-      "infoWithStyle": {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
-        "restaurants": [
+const resList = [
           {
             "info": {
               "id": "59593",
@@ -948,11 +938,7 @@ const resObj = {
             },
             "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
           }
-        ],
-        "theme": "SeoRestaurantListingGridWidget"
-      }
-    }
-}
+]
 
 
 // Header component -> Logo & Nav Items
@@ -981,19 +967,20 @@ const styleCard = {
 // Props are passed as - Destructured Objects - Object Destructuring
 const RestaurantCard = (props) => {
     
-    const {resName, cuisine} = props;
-    console.log(resName)
-    console.log(cuisine)
+    const {resData} = props;
+    const {name, cloudinaryImageId, cuisines, avgRating, sla} = resData?.info;
     return (
         <div className="res-card" style={styleCard}>
             <img className="res-logo"
                 alt="res-logo" 
-                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nw2xeql0jokm2rqnkzfs"/>
-            <h3>{resName}</h3>
-            <h4>{cuisine}</h4>
-            <h4>Rating : 4.4</h4>
-            <h4>38 min.</h4>
-
+                src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + 
+                    cloudinaryImageId
+                }
+                />
+            <h3>{name}</h3>
+            <h4>{cuisines.join(", ")}</h4>
+            <h4>{avgRating}</h4>
+            <h4>{sla.deliveryTime} minutes</h4>
         </div>
     )
 }
@@ -1005,8 +992,14 @@ const Body = () => {
                 Search
             </div>
             <div className="restaurant-container">
-                <RestaurantCard resName="Meghna Foods" cuisine="Biryani, North Indian, Asian"/>
-                <RestaurantCard resName="McDonalds" cuisine="Burger, Fast Foods"/>
+                <RestaurantCard resData={resList[0]}/>
+                <RestaurantCard resData={resList[1]}/>
+                <RestaurantCard resData={resList[2]}/>
+                <RestaurantCard resData={resList[3]}/>
+                <RestaurantCard resData={resList[4]}/>
+                <RestaurantCard resData={resList[5]}/>
+                <RestaurantCard resData={resList[6]}/>
+                <RestaurantCard resData={resList[7]}/>
             </div>
         </div>
     )
