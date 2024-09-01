@@ -32,12 +32,10 @@ const Body = () => {
     };
 
 
-    // Conditional Rendering
-    if(listOfRestaurants.length === 0) {
-        return <Shimmer/>
-    }
-
-    return (
+    // Conditional Rendering - Rendering on the basis of condition is known as conditional rendering
+    return listOfRestaurants.length === 0 ? (
+        <Shimmer/>
+    ) : (
         <div className="body">
             <div className="search">
                 <button className="filter-btn" onClick={()=>{
