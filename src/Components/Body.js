@@ -1,23 +1,23 @@
 import {RestaurantCard} from "./RestaurantCard";
 import resList from "../utils/mockData";
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 /**
- * React Hooks - Normal Javascript utility functions (Utility function)
- *     1. useState() - Used to build superpowerful state variables in React
- *     2. useEffect()
+ *  Fetch dynamic data from the API and populate the page dynamically.
+ *  Make API call in React
+ *  useEffect()
  */
 
-// State variable - Super powerful variable 
-//     => State variable maintains the state of the component
-//     => How can we create the super powerful variable - For that we use React Hooks - useState()
-    
 
-// Task : Filter Button should filter out the top-rated restaurant which has the rating greater than 4.
-// Filter out all the top rated restaurants
 const Body = () => {
 
     const [listOfRestaurants, setListOfRestaurant] = useState(resList);
+
+    useEffect(() => {
+        console.log("Use Effect Called");
+    }, []);
+
+    console.log("Body Rendered")
 
     return (
         <div className="body">

@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import Header from "./Components/Header";
 import Body from "./Components/Body"
 
-// React Hooks
 
 // Functional Component is a normal function that returns some piece of JSX code
 const AppLayout = () => {
