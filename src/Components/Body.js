@@ -1,5 +1,5 @@
 import {RestaurantCard} from "./RestaurantCard";
-import resList from "../utils/mockData";
+import Shimmer from "./Shimmer"
 import { useState, useEffect } from "react"
 
 /**
@@ -11,13 +11,29 @@ import { useState, useEffect } from "react"
 
 const Body = () => {
 
-    const [listOfRestaurants, setListOfRestaurant] = useState(resList);
+    const [listOfRestaurants, setListOfRestaurant] = useState([]);
+
+    // 1. As soon as the page loads, the Body component will be rendered
+    // 2. Then we will make an API call after the render is done.
 
     useEffect(() => {
-        console.log("Use Effect Called");
+        fetchData();
     }, []);
 
-    console.log("Body Rendered")
+    const fetchData = async () => {
+        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9121181&lng=77.6445548&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+
+        // Convert the data to JSON
+        const json = await data.json();
+
+        console.log(json);
+        // Optional chaining
+        setListOfRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+    };
+
+    if(listOfRestaurants.length === 0) {
+        return <Shimmer/>
+    }
 
     return (
         <div className="body">
