@@ -1,6 +1,7 @@
 import {RestaurantCard} from "./RestaurantCard";
 import Shimmer from "./Shimmer"
 import { useState, useEffect } from "react"
+import {Link} from "react-router-dom"
 
 /**
  *  Fetch dynamic data from the API and populate the page dynamically.
@@ -75,7 +76,7 @@ const Body = () => {
             <div className="restaurant-container">
             {
                 filteredRestaurant.map(restaurant => 
-                    <RestaurantCard key={restaurant.info.id} resData={restaurant}/>
+                    <Link key={restaurant.info.id} to={"/restaurants/" + restaurant.info.id}><RestaurantCard resData={restaurant}/></Link>
                 )
             }    
             </div>
