@@ -13,9 +13,9 @@ const Body = () => {
 
     const [listOfRestaurants, setListOfRestaurant] = useState([]);
     const [filteredRestaurant, setFilteredRestaurant] = useState([]);
-
     const [searchText, setSearchText] = useState(""); 
 
+    // UseEffect() is called after every render of the component
     useEffect(() => {
         fetchData();
     }, []);
