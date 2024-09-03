@@ -1,5 +1,6 @@
 import AppLogo from "../utils/AppLogo.png";
 import {useState} from "react"
+import {Link} from "react-router-dom"
 
 // Create toggle Button for Login-Logout
 // Whenever the state variable changes, React will render the header component
@@ -14,10 +15,18 @@ const Header = () => {
             </div>
             <div className="nav-items">
                 <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Cart</li>
+                    <li>
+                        <Link>Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">About Us</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact Us</Link>
+                    </li>
+                    <li>
+                        Cart
+                    </li>
                     <button className="login" onClick={()=>{
                         btnName === "Login" ? setBtnName("Logout") : setBtnName("Login")
                     }}>{btnName}</button>
