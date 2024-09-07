@@ -129,3 +129,11 @@ body {
 .filter {
     display: flex;
 }
+
+.user-card {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 300px;    
+}
