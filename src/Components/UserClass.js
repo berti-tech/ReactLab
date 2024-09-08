@@ -4,7 +4,7 @@ import React from "react";
 
 
 /**
- * Goal : React Lifecycle Methods
+ * Goal : Lifecyle methods when multiple Childs are called 
  */
 
 
@@ -18,15 +18,15 @@ class UserClass extends React.Component {
         };
 
         console.log(props);
-        console.log("Child Constructor")
+        console.log(this.props.name +  "Child Constructor")
     }
 
     componentDidMount() {
-        console.log("Child Component Did Mount")
+        console.log(this.props.name + "Child Component Did Mount")
     }
 
     render() {
-        console.log("Child Render")
+        console.log(this.props.name + "Child Render")
         return (
             <div className="user-card">
                 <h3>Count: {this.state.count}</h3>

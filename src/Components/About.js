@@ -13,7 +13,7 @@ class About extends React.Component {
     componentDidMount() {
         console.log("Parent Component Did Mount")
     }
-    
+
     render() {
         console.log("Parent Render")
         return (
@@ -21,10 +21,28 @@ class About extends React.Component {
                 <h1>About Class Component</h1>
                 <h2>This is React Web Series</h2>
 
-                <UserClass name={"Bharat"} location={"Kota, Rajasthan"}/>
+                <UserClass name={"First"} location={"Kota, Rajasthan"}/>
+                <UserClass name={"Second"} location={"New Delhi, Delhi"}/>
             </div>
         )
     }
 }
+
+/** 
+ *  This is the wrong order of lifecycle methods when mutliple childrens are called
+ * - Parent Constructor
+ * - Parent Render
+ *      - First Child Constructor
+ *      - First Child Render
+ * 
+ *      - Second Child Constructor
+ *      - Second Child Render
+ *      
+ *      <DOM Updated - In Single Batch>
+ *      - First Child ComponentDidMount
+ *      - Second Child ComponentDidMount
+ *      
+ * - Parent ComponentDidMount
+ */
 
 export default About;
