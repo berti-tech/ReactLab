@@ -1,16 +1,6 @@
 import React from "react";
 
 // Class based component
-
-
-/**
- * Goal : ComponentDidMount() - Make API calls in class based components
- * 
- * Mounting - Showing on the UI
- * Unmounting - Removing from the UI
- */
-
-
 class UserClass extends React.Component {
 
     constructor(props) {
