@@ -11,6 +11,15 @@ body {
     font-weight: 600;
 }
 
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+#online-status {
+    font-size: 15px;
+}
+
 .logo-container {
     display: flex;
     flex-direction: row;
@@ -48,7 +57,7 @@ body {
 
 .res-card {
     width: 200px;
-    height: 364px;
+    height: 400px;
     padding: 5px;
     margin: 5px;
     background-color: #f0f0f0;
@@ -56,6 +65,13 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds some shadow for better visibility */
     overflow: hidden; /* Ensures no content overflows */
     box-sizing: border-box;
+}
+
+.restaurant-container a {
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
 }
 
 .restaurant-container {

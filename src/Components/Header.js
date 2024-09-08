@@ -1,12 +1,16 @@
 import AppLogo from "../utils/AppLogo.png";
 import {useState} from "react"
 import {Link} from "react-router-dom"
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 // Create toggle Button for Login-Logout
 // Whenever the state variable changes, React will render the header component
 const Header = () => {
 
     const [btnName, setBtnName] = useState("Login");
+
+    const onlineStatus = useOnlineStatus();
+    
     console.log("Header Rendered")
     return (
         <div className="header">
@@ -15,6 +19,9 @@ const Header = () => {
             </div>
             <div className="nav-items">
                 <ul>
+                    <li id="online-status">
+                        Online Status: {onlineStatus ? "🟢" : "🔴"}
+                    </li>
                     <li>
                         <Link>Home</Link>
                     </li>

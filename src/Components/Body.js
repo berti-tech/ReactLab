@@ -2,6 +2,7 @@ import {RestaurantCard} from "./RestaurantCard";
 import Shimmer from "./Shimmer"
 import { useState, useEffect } from "react"
 import {Link} from "react-router-dom"
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 /**
  *  Fetch dynamic data from the API and populate the page dynamically.
@@ -32,6 +33,16 @@ const Body = () => {
         setListOfRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
         setFilteredRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
     };
+
+    const onlineStatus = useOnlineStatus();
+
+    if(onlineStatus == false) {
+        return (
+            <div className="offline-msg">
+                <h2>You're offline. Please check your internet connection.</h2>
+            </div>
+        )
+    }
 
 
     // Conditional Rendering - Rendering on the basis of condition is known as conditional rendering

@@ -4,7 +4,7 @@ import useRestaurantMenu from "../utils/useRestaurantMenu";
 
 
 /**
- * Goal : Create Custom Hook 
+ * Goal-1 : Create Custom Hook 
  *        Abstract the fetch data logic & put inside the custom hook
  * 
  * Create a custom hook that will fetch the data & will give to restaurantMenu hook.
@@ -12,6 +12,7 @@ import useRestaurantMenu from "../utils/useRestaurantMenu";
  * Separate the fetching data logic and displaying data logic on the UI
  * 
  * Hooks are nothing but utility functions or helper functions
+ * 
  */
 
 const RestaurantMenu = () => {
