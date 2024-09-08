@@ -4,7 +4,10 @@ import React from "react";
 
 
 /**
- * Goal : Lifecyle methods when multiple Childs are called 
+ * Goal : ComponentDidMount() - Make API calls in class based components
+ * 
+ * Mounting - Showing on the UI
+ * Unmounting - Removing from the UI
  */
 
 
@@ -12,31 +15,51 @@ class UserClass extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            count: 0,
-            count2: 2,
-        };
 
-        console.log(props);
-        console.log(this.props.name +  "Child Constructor")
+        this.state = {
+            userInfo : {
+                name : "Dummy Name",
+                location : "Dummy Location",
+                avatar_url: "https://dummy-photo.com"
+            }
+        }
+
+        // console.log(props);
+        // console.log(this.props.name +  "Child Constructor")
     }
 
-    componentDidMount() {
-        console.log(this.props.name + "Child Component Did Mount")
+    async componentDidMount() {
+        // console.log(this.props.name + "Child Component Did Mount")
+        const data = await fetch("https://api.github.com/users/berti-tech");
+        const json = await data.json();
+
+        console.log(json);
+
+        this.setState({
+            userInfo : {
+                name : json.name,
+                location : json.location,
+                avatar_url: json.avatar_url
+            }
+        })
+    }
+
+    componentDidUpdate() {
+        console.log("Component Did Update")
+    }
+
+    componentWillUnmount() {
+        console.log("Component Will Unmount")
     }
 
     render() {
-        console.log(this.props.name + "Child Render")
+        // console.log(this.props.name + "Child Render")
+        // debugger;
         return (
             <div className="user-card">
-                <h3>Count: {this.state.count}</h3>
-                <button onClick={()=>{
-                    // Never update the state variables directly
-                    // Eg-  this.state.count = this.state.count + 1
-                    this.setState({count: this.state.count + 1})
-                }}>Count Increase</button>
-                <h3>Name: {this.props.name}</h3>
-                <h3>Location: {this.props.location}</h3>
+                <img className="profile-pic"src={this.state.userInfo.avatar_url}/>
+                <h3>Name: {this.state.userInfo.name}</h3>
+                <h3>Location: {this.state.userInfo.location}</h3>
                 <h4>Contact: @bharat18</h4>
             </div>
         )
@@ -44,3 +67,19 @@ class UserClass extends React.Component {
 }
 
 export default UserClass;
+
+
+/**
+ * -----Mounting Cycle------
+ * Constructor is called 
+ * Render is called (dummy data)
+ *      Dummy Data is rendered
+ * componentDidMount - API Call
+ *      API Call
+ *      this.stateState -> State variable is updated
+ * 
+ * ------Update------
+ *  render - render will happen with API Data
+ *  React updates the DOM
+ *  Component Did Update
+ */

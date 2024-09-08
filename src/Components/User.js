@@ -5,7 +5,7 @@ const User = (props) => {
     const [count] = useState(0);
     const [count2] = useState(1);
 
-    console.log(count);
+    // console.log(count);
     return (
         <div className="user-card">
             <h3>Count: {count}</h3>
