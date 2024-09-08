@@ -4,10 +4,9 @@ import React from "react";
 
 
 /**
- * Goal : Update the state variables in class components 
+ * Goal : React Lifecycle Methods
  */
 
-// State is created in class components whenever we create a instance of the class
 
 class UserClass extends React.Component {
 
@@ -19,9 +18,15 @@ class UserClass extends React.Component {
         };
 
         console.log(props);
+        console.log("Child Constructor")
     }
-    render() {
 
+    componentDidMount() {
+        console.log("Child Component Did Mount")
+    }
+
+    render() {
+        console.log("Child Render")
         return (
             <div className="user-card">
                 <h3>Count: {this.state.count}</h3>
