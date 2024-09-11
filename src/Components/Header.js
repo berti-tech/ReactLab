@@ -13,12 +13,12 @@ const Header = () => {
     
     console.log("Header Rendered")
     return (
-        <div className="header">
-            <div className="logo-container">
-                <img className="logo" src={AppLogo} draggable="false"/>
+        <div className="header flex justify-between border border-black rounded-md font-sans font-semibold mx-2 my-2">
+            <div className="logo-container flex flex-row flex-wrap content-center items-center">
+                <img className="logo w-40 h-12 object-cover ml-12 rounded-md scale-150" src={AppLogo} draggable="false"/>
             </div>
-            <div className="nav-items">
-                <ul>
+            <div className="nav-items px-5 py-4">
+                <ul className="flex items-center text-xl px-5 py-4 space-x-8">
                     <li id="online-status">
                         Online Status: {onlineStatus ? "🟢" : "🔴"}
                     </li>
@@ -34,7 +34,7 @@ const Header = () => {
                     <li>
                         Cart
                     </li>
-                    <button className="login" onClick={()=>{
+                    <button className="login bg-black text-white font-bold py-2 px-4 rounded w-28" onClick={()=>{
                         btnName === "Login" ? setBtnName("Logout") : setBtnName("Login")
                     }}>{btnName}</button>
                 </ul>

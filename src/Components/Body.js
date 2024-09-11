@@ -52,12 +52,12 @@ const Body = () => {
         <Shimmer/>
     ) : (
         <div className="body">
-            <div className="filter">    
-                <div className="search">
-                    <input type="text" className="search-box" value={searchText} onChange={(e)=>{
+            <div className="filter flex items-center justify-center gap-4 p-4">    
+                <div className="search flex rounded-md border border-gray-400 overflow-hidden">
+                    <input type="text" className="search-box px-3 py-2 focus:outline-none w-full" placeholder="Search restaurants..." value={searchText} onChange={(e)=>{
                         setSearchText(e.target.value)
                     }}/>
-                    <button onClick={()=>{
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4" onClick={()=>{
                         // Filter the restaurant cards & update the UI
                         // Search Text
                         console.log(searchText)
@@ -68,9 +68,9 @@ const Body = () => {
 
                         setFilteredRestaurant(filteredRestaurant)
 
-                    }}>Search</button>
+                    }}>🔍</button>
                 </div>
-                <button className="filter-btn" onClick={()=>{
+                <button className="filter-btn bg-yellow-400 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-md" onClick={()=>{
                     // Filter Logic
                     const filteredList = listOfRestaurants.filter(
                         res => res.info.avgRating > 4
@@ -80,11 +80,11 @@ const Body = () => {
                     setListOfRestaurant(filteredList);
                 }}  
                 >
-                    Top Rated Restaurants
+                    Top Rated Restaurants ★
                 </button>
             
             </div>
-            <div className="restaurant-container">
+            <div className="restaurant-container flex flex-wrap gap-6 mx-auto">
             {
                 filteredRestaurant.map(restaurant => 
                     <Link key={restaurant.info.id} to={"/restaurants/" + restaurant.info.id}><RestaurantCard resData={restaurant}/></Link>
