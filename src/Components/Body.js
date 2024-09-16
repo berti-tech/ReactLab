@@ -3,6 +3,7 @@ import Shimmer from "./Shimmer"
 import { useState, useEffect } from "react"
 import {Link} from "react-router-dom"
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { withDiscountLabel } from "./RestaurantCard";
 
 /**
  *  Fetch dynamic data from the API and populate the page dynamically.
@@ -17,13 +18,26 @@ const Body = () => {
     const [filteredRestaurant, setFilteredRestaurant] = useState([]);
     const [searchText, setSearchText] = useState(""); 
 
+    // It will return us a new card which has a lable inside it
+    const RestaurantCardDiscounted = withDiscountLabel(RestaurantCard);
+
+
+
     // UseEffect() is called after every render of the component
     useEffect(() => {
         fetchData();
     }, []);
 
+    useEffect(()=>{
+        // Filtered Logic
+        const filtered = listOfRestaurants.filter((res) =>
+            res.info.name.toLowerCase().includes(searchText.toLowerCase())
+          );
+          setFilteredRestaurant(filtered);
+    }, [searchText, listOfRestaurants]); // Run whenever searchText or listOfRestaurants changes
+
     const fetchData = async () => {
-        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9121181&lng=77.6445548&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.910099&lng=77.637875&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
 
         // Convert the data to JSON
         const json = await data.json();
@@ -38,7 +52,7 @@ const Body = () => {
 
     if(onlineStatus == false) {
         return (
-            <div className="offline-msg">
+            <div className="offline-msg m-2 flex items-center justify-center fixed top-100 left-0 right-0 bottom-0  bg-red-100">
                 <h2>You're offline. Please check your internet connection.</h2>
             </div>
         )
@@ -52,12 +66,13 @@ const Body = () => {
         <Shimmer/>
     ) : (
         <div className="body">
-            <div className="filter flex items-center justify-center gap-4 p-4">    
-                <div className="search flex rounded-md border border-gray-400 overflow-hidden">
-                    <input type="text" className="search-box px-3 py-2 focus:outline-none w-full" placeholder="Search restaurants..." value={searchText} onChange={(e)=>{
+            <div className="filter mb-10 flex items-center justify-center gap-4 p-4 bg-gray-100 shadow-md rounded-lg">    
+                <div className="search w-80 flex rounded-md border border-gray-400 shadow-lg overflow-hidden">
+                    <input type="text" className="search-box px-3 py-2 focus:outline-none w-full" placeholder="Search restaurants..." 
+                        value={searchText} onChange={(e)=>{
                         setSearchText(e.target.value)
                     }}/>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4" onClick={()=>{
+                    <button className="bg-blue-500 hover:bg-blue-600 transition duration-200 text-white font-bold w-20 py-2 px-4" onClick={()=>{
                         // Filter the restaurant cards & update the UI
                         // Search Text
                         console.log(searchText)
@@ -70,10 +85,10 @@ const Body = () => {
 
                     }}>🔍</button>
                 </div>
-                <button className="filter-btn bg-yellow-400 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-md" onClick={()=>{
+                <button className="filter-btn shadow-md bg-yellow-400 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-md" onClick={()=>{
                     // Filter Logic
                     const filteredList = listOfRestaurants.filter(
-                        res => res.info.avgRating > 4
+                        res => res.info.avgRating > 3.5
                     );
 
                     // Updating the listOfRestaurant with the filtered list
@@ -84,10 +99,20 @@ const Body = () => {
                 </button>
             
             </div>
-            <div className="restaurant-container flex flex-wrap gap-6 mx-auto">
+            <div className="restaurant-container flex flex-wrap justify-center gap-6">
             {
                 filteredRestaurant.map(restaurant => 
-                    <Link key={restaurant.info.id} to={"/restaurants/" + restaurant.info.id}><RestaurantCard resData={restaurant}/></Link>
+                    <Link 
+                        key={restaurant.info.id} 
+                        to={"/restaurants/" + restaurant.info.id}
+                    >
+                        {/** If the restaurant has discount, then add a discount label to it */
+                            restaurant.info.aggregatedDiscountInfoV3 ? (
+                                <RestaurantCardDiscounted resData={restaurant}/>
+                            ) : (
+                                <RestaurantCard resData={restaurant}/>
+                        )}
+                    </Link>
                 )
             }    
             </div>

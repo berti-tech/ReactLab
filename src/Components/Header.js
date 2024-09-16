@@ -11,16 +11,16 @@ const Header = () => {
 
     const onlineStatus = useOnlineStatus();
     
-    console.log("Header Rendered")
+    console.log("Header Rendered");
     return (
-        <div className="header flex justify-between border border-black rounded-md font-sans font-semibold mx-2 my-2">
+        <div className="header flex justify-between bg-yellow-400 border border-black rounded-md font-sans font-semibold mx-2 my-2 shadow-lg">
             <div className="logo-container flex flex-row flex-wrap content-center items-center">
                 <img className="logo w-40 h-12 object-cover ml-12 rounded-md scale-150" src={AppLogo} draggable="false"/>
             </div>
             <div className="nav-items px-5 py-4">
                 <ul className="flex items-center text-xl px-5 py-4 space-x-8">
-                    <li id="online-status">
-                        Online Status: {onlineStatus ? "🟢" : "🔴"}
+                    <li id="online-status" className="text-sm">
+                        Online Status: <span className="text-xs">{onlineStatus ? "🟢" : "🔴"}</span>
                     </li>
                     <li>
                         <Link>Home</Link>
