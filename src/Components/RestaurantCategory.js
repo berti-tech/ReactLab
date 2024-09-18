@@ -1,7 +1,6 @@
 import ItemList from "./ItemList";
-import {useState} from "react";
 
-const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
+const RestaurantCategory = ({ data, showItems, setShowIndex, dummy }) => {
 
     const handleClick = () => {
         // This function will show & hide the item List, when I click on the button
@@ -18,7 +17,7 @@ const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
                     <span>⬇️</span>
                 </div>
 
-                {showItems && <ItemList items={data.itemCards}/>}
+                {showItems && <ItemList items={data.itemCards} dummy={dummy}/>}
 
             </div>
             

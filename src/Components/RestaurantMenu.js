@@ -25,6 +25,8 @@ const RestaurantMenu = () => {
 
     const [showIndex, setShowIndex] = useState(null);
 
+    const dummy = "Dummy Data";
+
     if(resInfo==null) return <Shimmer/>;
 
     const {name, cuisines, costForTwoMessage } = resInfo?.cards[2]?.card?.card?.info;
@@ -51,6 +53,7 @@ const RestaurantMenu = () => {
                         data={category?.card?.card}
                         showItems={ index===showIndex ? true : false }
                         setShowIndex={ () => setShowIndex(index)}
+                        dummy = {dummy}
                     />
                 )
             })}
