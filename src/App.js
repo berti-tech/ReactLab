@@ -8,15 +8,34 @@ import Error from "./Components/Error";
 import RestaurantMenu from "./Components/RestaurantMenu";
 import { createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
 import RestaurantMenu from "./Components/RestaurantMenu";
+import UserContext from "./utils/UserContext";
+import { useState, useEffect } from "react";
+
+
 
 
 // Functional Component is a normal function that returns some piece of JSX code
 const AppLayout = () => {
+
+    const [userName, setUserName] = useState();
+
+    // Authentication
+    useEffect(()=>{
+        // Make an API call and send username & password
+        const data = {
+            name: "Bharat"
+        };
+        setUserName(data.name);
+   
+    }, [])
+
     return (
-        <div className="app">
-            <Header/>
-            <Outlet/>
-        </div>
+        <UserContext.Provider value={{loggedInUser: userName, setUserName }}>
+            <div className="app">
+                <Header/>
+                <Outlet/>
+            </div>
+        </UserContext.Provider>
     )
 }
 

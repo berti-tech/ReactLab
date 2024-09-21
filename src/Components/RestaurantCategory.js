@@ -3,8 +3,6 @@ import ItemList from "./ItemList";
 const RestaurantCategory = ({ data, showItems, setShowIndex, dummy }) => {
 
     const handleClick = () => {
-        // This function will show & hide the item List, when I click on the button
-        // setShowItems(!showItems);
         // Modify the state variable of the parent from the children
         setShowIndex();
     }
@@ -20,9 +18,7 @@ const RestaurantCategory = ({ data, showItems, setShowIndex, dummy }) => {
                 {showItems && <ItemList items={data.itemCards} dummy={dummy}/>}
 
             </div>
-            
-            
-            
+
         </div>
         
 

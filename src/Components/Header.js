@@ -3,6 +3,8 @@ import {useState} from "react"
 import {Link} from "react-router-dom"
 import useOnlineStatus from "../utils/useOnlineStatus";
 
+
+
 // Create toggle Button for Login-Logout
 // Whenever the state variable changes, React will render the header component
 const Header = () => {
@@ -10,6 +12,7 @@ const Header = () => {
     const [btnName, setBtnName] = useState("Login");
 
     const onlineStatus = useOnlineStatus();
+    
     
     console.log("Header Rendered");
     return (
@@ -37,6 +40,7 @@ const Header = () => {
                     <button className="login bg-black text-white font-bold py-2 px-4 rounded w-28" onClick={()=>{
                         btnName === "Login" ? setBtnName("Logout") : setBtnName("Login")
                     }}>{btnName}</button>
+
                 </ul>
             </div>
         </div>
